@@ -1,8 +1,14 @@
-#include <python.h>
-#include <object.h>
-#include <listobject.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
 
-Void print_python_list_info(pyobject *p)
+/**
+ * print_python_list_info - fun that prints basic info
+ * about python list.
+ * @p: python list
+ */
+
+void print_python_list_info(PyObject *p)
 {
 	long int size = pyList_Size(p);
 	int i;

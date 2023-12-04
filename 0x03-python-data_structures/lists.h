@@ -3,8 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
-#include <python.h>
+#include <unistd.h>CPython #0: Python lists
 
 /**
  * struct listint_s - singly linked list
