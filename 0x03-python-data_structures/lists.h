@@ -1,10 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>CPython #0: Python lists
-
 /**
  * struct listint_s - singly linked list
  * @n: integer
