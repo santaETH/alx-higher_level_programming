@@ -1,5 +1,4 @@
-#include "lists.h"
-#include <stdlib.h>
+#include <Python.h>
 #include <stdio.h>
 
 /**

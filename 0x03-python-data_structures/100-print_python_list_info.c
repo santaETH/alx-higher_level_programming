@@ -5,6 +5,8 @@
  * print_python_list_info - fun that prints basic info
  * about python list.
  * @p: python list
+ *
+ * Return: 0
  */
 
 void print_python_list_info(PyObject *p)
