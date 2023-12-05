@@ -1,5 +1,5 @@
-#include <Python.h>
-#include <stdio.h>
+#include "lists.h"
+#include <stdlib.h>
 
 /**
  * add_nodeint - adds a new node at the beginning
@@ -53,4 +53,3 @@ int is_palindrome(listint_t **head)
 	free_listint(aux);
 	return (1);
 }
-
