@@ -2,8 +2,9 @@
 """
 A Python script that takes in a URL and an email, sends a POST request to the passed URL
 """
-from urllib import request, parse
 import sys
+import urllib.parse
+import urllib.request
 
 
 if __name__ == "__main__":
