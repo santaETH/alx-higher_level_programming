@@ -11,6 +11,6 @@ import urllib.error
 
 try:
     with urllib.request.urlopen(url) as response:
-            content = resp
-            response.read().decode('utf-8')
-            print(content)
+        print(res.read().decode('utf-8'))
+    except error.HTTPError as error:
+        print('Error code:', error.code)
