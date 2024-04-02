@@ -1,4 +1,4 @@
-#!/usr/bin/python30
+#!/usr/bin/python3
 """A script that fetches https://alx-intranet.hbtn.io/status"""
 
 
