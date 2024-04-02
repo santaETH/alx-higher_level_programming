@@ -12,5 +12,5 @@ if __name__ == "__main__":
         with urllib.request.urlopen(url) as response:
             body = response.read()
             print(ody.decode('utf-8'))
-    except error.HTTPError as erro.
+    except error.HTTPError as erro:
         print("Error code: {}'.format(erro.code))
