@@ -7,7 +7,8 @@ Write a Python script that takes 2 arguments in order to solve this challenge.
 - You are not allowed to import packages other than requests and sys
 """
 import requests
-import sys import argv
+import sys
+
 
 if __name__ == "__main__":
     repo = argv[1]
