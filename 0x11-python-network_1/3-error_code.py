@@ -8,8 +8,9 @@ from urllib import request, error
 import sys
 
 if __name__ == "__main__":
-try:
-    with urllib.request.urlopen(url) as response:
-        print(res.read().decode('utf-8'))
-except error.HTTPError as error:
-        print('Error code:', error.code)
+    try:
+        with urllib.request.urlopen(url) as response:
+            content = response.read().decode('utf-8')
+            print(content)
+    except urllib.error.HTTPError as e:
+        print("Error code:", e.code)
