@@ -6,6 +6,7 @@ request to the URL and displays the body of the response.
 import requests
 import sys
 
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         q = ""
@@ -14,7 +15,7 @@ if __name__ == "__main__":
 
     try:
         response = requests.post('http://0.0.0.0:5000/search_user', data={'q': q})
-        data = resonse.json()
+        data = response.json()
 
         if data:
             print("[{}] {}".format(data['id'], data['name']))
