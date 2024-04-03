@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-A Python script that takes in a URL and an email, sends a POST request to the passed URL
+A Python script that takes in a URL and an email
+sends a POST request to the passed URL
 """
 import sys
 import urllib.parse
