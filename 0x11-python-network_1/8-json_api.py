@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     try:
         response = requests.post(
-                'http://0.0.0.0:5000/search_user', 
+                'http://0.0.0.0:5000/search_user',
                 data={'q': q}
         )
         data = response.json()
